@@ -1,22 +1,28 @@
-#include <stdio.h>
+#include "main.h"
 
 
 
 /**
+ * print_alphabet_x10 - print alphabet
  *
- * main - Prints the alphabet in lowercase.
  * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet_x10(void)
 
 {
-char letter;
 
-for (letter = 'a'; letter <= 'z'; letter++)
+int alphabet;
+int count;
 
-putchar(letter);
-putchar('\n');
-
-return (0);
+count = 0;
+while (count < 10)
+{
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
+}
+count++;
+_putchar('\n');
+}
 }

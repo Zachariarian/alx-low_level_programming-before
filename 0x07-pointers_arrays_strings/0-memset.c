@@ -1,5 +1,5 @@
 #include "main.h"
-#include <studio h>
+#include <studio.h>
 
 /**
  * _memset - fills memory with a constant byte

@@ -3,7 +3,7 @@ int tmp_prime(int n, int i);
 /**
  * divisors - number is prime?
  * @n: integer params
- * @m: integer params
+ * @m: integer param
  * Return: boolean
  */
 int divisors(int n, int m)
